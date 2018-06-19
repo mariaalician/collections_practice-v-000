@@ -38,8 +38,8 @@ def find_a(strings)
   a_array = []
   strings.collect do |starts_a|
     apple = starts_a.start_with?("a")
-  a_array << appleend
-  
+    a_array << apple
+  end
 end
 
 def sum_array(array)
