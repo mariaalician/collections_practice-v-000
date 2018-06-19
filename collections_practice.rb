@@ -47,5 +47,5 @@ def sum_array(array)
 end
 
 def add_s(strings)
-  
+  strings.concat("s")
 end
