@@ -35,7 +35,6 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-  a_array = []
   strings.select do |starts_a|
     starts_a.start_with?("a")
   end
