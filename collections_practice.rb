@@ -51,7 +51,6 @@ def add_s(strings)
     if strings[1] !== string
       string.concat("s")
     else string
-    binding.pry
     end
   end
 end
