@@ -36,7 +36,7 @@ end
 
 def find_a(strings)
   a_array = []
-  strings.collect do |starts_a|
+  strings.select do |starts_a|
     apple = starts_a.start_with?("a")
     a_array << apple
   end
