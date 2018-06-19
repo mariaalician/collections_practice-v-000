@@ -48,7 +48,7 @@ end
 
 def add_s(strings)
   strings.map do |string|
-    if strings[1] !== string
+    if strings[1] != string
       string.concat("s")
     else 
       string
