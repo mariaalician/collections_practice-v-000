@@ -1,6 +1,8 @@
 array = [1, 3, 2, 4]
 strings = ["one", "three", "four", "apple"]
 
+require 'pry'
+
 def sort_array_asc(array)
   array.sort do |x,y|
     x <=> y
@@ -45,5 +47,8 @@ def sum_array(array)
 end
 
 def add_s(strings)
-  strings.concat("s")
+  strings.map do |string|
+    binding.pry
+  string.concat("s")
+  end
 end
